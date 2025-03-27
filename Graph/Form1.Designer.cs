@@ -101,7 +101,7 @@
             btnFilter.TabIndex = 7;
             btnFilter.Text = "Filter";
             btnFilter.UseVisualStyleBackColor = true;
-            btnFilter.Click += btnFilter_Click_1;
+            btnFilter.Click += btnFilter_Click;
             // 
             // cmbFilter
             // 

@@ -35,7 +35,7 @@ namespace Graph
             dtgvAutomovile.DataSource = dt;
         }
        
-        private void btnFilter_Click_1(object sender, EventArgs e)
+        private void btnFilter_Click(object sender, EventArgs e)
         {
             string selectedBrand = cmbFilter.Text;
             DataTable dt = (DataTable)dtgvAutomovile.DataSource;
